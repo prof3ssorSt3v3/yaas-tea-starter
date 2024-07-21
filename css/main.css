@@ -196,6 +196,20 @@ main {
         color: inherit;
         text-decoration: none;
       }
+
+      .post--tags {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+      .post--tags span {
+        margin-inline: 1rem;
+      }
+      .post--tags span::before {
+        content: '#';
+        display: inline;
+        font-size: inherit;
+      }
     }
     .post--info {
       font-size: var(--font-md);
